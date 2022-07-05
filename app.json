@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Keeping System",
+    "slug": "keeping-system",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ksy_icon.png",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.cationtech.ksy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ksy_icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ksy_splash2.png"
+    }
+  }
+}
